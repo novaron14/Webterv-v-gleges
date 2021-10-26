@@ -1,0 +1,166 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    cursor: url("../img/sword.cur"), auto;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #bbbbbb;
+}
+
+body {
+    height: 75%;
+    padding-top: 81px;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    overflow: hidden;
+    padding-left: 1.3vw;
+    padding-right: 1.3vw;
+}
+
+header {
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b1b;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+}
+nav li a {
+    display: block;
+    user-select: none;
+    color: #c9c9c9;
+    padding: 32px 1.7vw;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.5s;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav a[id="actual"] {
+    color: white;
+}
+
+.avatar-wrapper {
+    padding: 4px;
+    width: 140px;
+    margin: 5px auto 25px auto;
+    border: 1px solid black;
+}
+
+.avatar-crop {
+    object-fit: none; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    height: 140px;
+    width: 140px;
+}
+
+#profile {
+    float: right;
+    margin-top: 10px;
+    margin-right: 18px;
+    height: 60px;
+    width: 60px;
+    border: 2px solid #1b1b1b;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: border 0.5s;
+}
+
+#profile:hover {
+    border: 2px solid white;
+}
+
+.wcrop_nav {
+    background-size: auto 60px;
+}
+
+.hcrop_nav {
+    background-size: 60px auto;
+}
+
+.li-profile {
+    padding: 0; margin: 0; height: 47px; top: 0px;
+}
+
+#logo {
+    float: left;
+    display: inline-block;
+    vertical-align: center;
+    height: 65px;
+    padding: 7px 0 0 20px;
+}
+
+footer {
+    box-sizing: border-box;
+    width: 100vw;
+    display: block;
+    background-color: #1b1b1b;
+    color: #c9c9c9;
+    margin-top: 20px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+footer ul {
+    margin-top: 50px;
+}
+
+footer p {
+    display: inline-block;
+    vertical-align: center;
+}
+
+#copyright {
+    float: left;
+    padding-top: 2px;
+}
+
+#payment {
+    float: right;
+    padding-right: 10px;
+}
+
+#payment img {
+    vertical-align: middle;
+    padding-left: 3px;
+}
+
+input:focus, textarea:focus{
+    outline-width: 0;
+}
+
+.error {
+    color: red;
+    font-weight: bolder;
+    padding-top: 7px;
+}
+

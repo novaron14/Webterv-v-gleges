@@ -1,0 +1,40 @@
+/* harcos.php-hez tartozó nyomtatási stíluslap: */
+
+@media print {
+    * {
+        background-color: white;
+        font-family: Georgia;
+    }
+
+    body {
+        padding-top: 0;
+    }
+
+    #description img {
+        display: none;
+    }
+
+    #description #uj {
+        display: none;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #products {
+        display: none;
+    }
+
+    #general-stuff {
+        padding: 0;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    #actual {
+        color: black;
+    }
+}

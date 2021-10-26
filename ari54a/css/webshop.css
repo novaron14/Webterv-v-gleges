@@ -1,0 +1,243 @@
+*::selection {
+    background-color: #cc0000;
+}
+
+#webshop {
+    max-width: 1095px;
+    float: left;
+    padding-bottom: 20px;
+}
+
+.webshop-item {
+     margin: 6px;
+     display: inline-block;
+     float: left;
+ }
+
+.webshop-item img {
+    display: block;
+    margin: auto;
+    width: 73%;
+}
+
+.webshop-item {
+    width: 330px;
+    background-color: #1b1b1b;
+    color: white;
+    border: 3px solid #1b1b1b;
+    border-radius: 15px;
+}
+
+.webshop-item {
+    text-align: center;
+}
+
+.webshop-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.webshop-item a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.webshop-order {
+    margin: 15px;
+    text-align: center;
+}
+
+input[alt="Kosárba"] {
+    width: 25px;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+input[alt="Kosárba"]:focus {
+    background-color: #1b1b1b;
+}
+
+.select-quantity {
+    background-color: #bbbbbb;
+    width: 38px;
+    margin-left: 15px;
+}
+
+aside {
+    width: 22.5%;
+    float: right;
+    z-index: 1;
+}
+
+aside .container {
+    padding: 0 40px 0 0;
+}
+
+#shoppingcart, #leaveamessage {
+    width: 100%;
+    background-color: #1b1b1b;
+    color: white;
+    border: 3px solid #1b1b1b;
+    border-radius: 15px;
+    display: block;
+    margin-top: 6px;
+}
+
+#shoppingcart h1, #leaveamessage h1 {
+    text-align: center;
+    color: white;
+    padding: 3px;
+}
+
+#shoppingcart-elements, #leaveamessage form {
+    border: 3px solid #1b1b1b;
+    background-color: #c9c9c9;
+    margin: 2px;
+}
+
+#shoppingcart-elements {
+    color: #1b1b1b;
+    text-align: center;
+}
+
+#shoppingcart-login {
+    font-weight: bolder;
+    padding: 150px 0;
+}
+
+#shoppingcart-login a{
+    color: #1b1b1b;
+}
+
+#shoppingcart-login a:hover{
+    color: #cc0000;
+}
+
+.shoppingcart-item {
+    box-sizing: border-box;
+    border-bottom: 3px solid #1b1b1b;
+    background-color: #4b4b4b;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.shoppingcart-item .productname {
+    font-weight: bold;
+}
+
+.shoppingcart-item .quantity {
+    font-size: small;
+}
+
+.shoppingcart-item .price {
+    font-size: small;
+}
+
+.delete {
+    background-color: #4b4b4b;
+    width: 25px;
+    padding: 3px;
+    vertical-align: middle;
+    margin-left: 5%;
+}
+
+.delete:focus {
+    background-color: #4b4b4b;
+}
+
+#leaveamessage {
+    color: black;
+    font-weight: bold;
+}
+
+#leaveamessage form {
+    background-color: #c9c9c9;
+}
+
+#leaveamessage textarea {
+    box-sizing: border-box;
+    padding: 7px;
+    background-color: #c9c9c9;
+    resize: none;
+    width: 100%;
+    height: 170px;
+    border: none;
+}
+
+#leaveamessage input, #leaveamessage label {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#leaveamessage label {
+    background-color: #1b1b1b;
+    color: white;
+    padding: 7px;
+    display: block;
+    text-align: center;
+}
+
+#leaveamessage input, #shoppingcart input[type="submit"] {
+    background-color: #c9c9c9;
+    border: none;
+    padding: 5px;
+}
+
+#leaveamessage input[type="submit"], #shoppingcart input[type="submit"] {
+    width: 100%;
+    background-color: #1b1b1b;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 0;
+    border-top: 8px solid #1b1b1b;
+    border-radius: 0;
+}
+
+#leaveamessage input[type="submit"]:hover, #shoppingcart input[type="submit"]:hover {
+    text-decoration: underline;
+}
+
+#showcase {
+    background: #1b1b1b;
+    border-bottom: 2px solid #1b1b1b;
+}
+
+#showcase .wrapper {
+    width: 100%;
+    height: 300px;
+    animation-name: showcase-rotate;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes showcase-rotate {
+    0% {transform: rotate3d(0, 1, 0, 0deg);}
+    45% {transform: rotate3d(0, 1, 0, 0deg);}
+    50% {transform: rotate3d(0, 1, 0, 180deg);}
+    95% {transform: rotate3d(0, 1, 0, 180deg);}
+    100% {transform: rotate3d(0, 1, 0, 0deg);}
+}
+
+#showcase div {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/showcase_bg.png");
+    background-position: center;
+    background-size: cover;
+    animation-name: showcase-picture;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    box-shadow: 0 6px 9px #1b1b1b inset, 0 -6px 9px #1b1b1b inset;
+}
+
+@keyframes showcase-picture {
+    0% { background-image: url("../img/showcase_bg.png");}
+    45% { background-image: url("../img/showcase_bg.png");}
+    50% { background-image: url("../img/showcase_bg2.png");}
+    95% { background-image: url("../img/showcase_bg2.png");}
+    100% { background-image: url("../img/showcase_bg.png");}
+}

@@ -1,0 +1,124 @@
+#description {
+    width: 47%;
+    float: left;
+}
+
+#products {
+    width: 48%;
+    float: right;
+    border: 10px solid #1b1b1b;
+    border-radius: 20px;
+    background-color: #1b1b1b;
+    margin-right: 25px;
+}
+
+#general-stuff {
+    float: left;
+    padding: 0 10px 40px 10px;
+}
+
+.nutrient-table {
+    width: 48%;
+    border-collapse: collapse;
+}
+
+.wrapper {
+    /*logó szélei miatt*/
+    padding: 0 10px;
+}
+
+caption {
+    font-weight: bold;
+    font-size: large;
+}
+
+th, td {
+    font-weight: normal;
+    text-align: center;
+    border-radius: 5px;
+    border: solid #1b1b1b;
+    padding: 0.2vw;
+}
+
+tr td:nth-child(1){
+    text-align: left;
+}
+
+#description img {
+    width: 100%;
+}
+
+#description #uj {
+    width: 7%;
+    position: absolute;
+    left: 39vw;
+    top: 90px;
+    z-index: 10;
+    float: right;
+    animation-name: uj-anim;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes uj-anim {
+    0% {transform: scale(1) rotate(27deg);}
+    100% {transform: scale(1.1) rotate(27deg);}
+}
+
+h1 {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+#description p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+article {
+    margin-bottom: 10px;
+}
+
+#t1 {
+    float: left;
+}
+
+#t2 {
+    float: right;
+}
+
+#products ul {
+    display: block;
+    margin: auto;
+}
+
+#products li {
+    display: inline-block;
+    width: 32%;
+    min-width: 140px;
+}
+
+#products img {
+    width: 68%;
+    min-width: 120px;
+    display: block;
+    margin: 15px auto;
+    background-image: none;
+    transition: transform 0.7s;
+}
+
+#products img:hover {
+    background-image: url("../img/t_hover.png");
+    background-position: center;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+#hunnia {
+    display: block;
+    width: 100%;
+    font-style: italic;
+    text-align: center;
+}
+

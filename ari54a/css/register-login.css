@@ -1,0 +1,207 @@
+#login {
+    padding: 22vh 0;
+}
+
+section#register h1, section#login h1, section.order h1{
+    margin: auto;
+    padding: 20px;
+    max-width: 500px;
+    text-align:center;
+    text-transform:uppercase;
+    border-bottom: 2px solid #000000;
+}
+
+.register-form{
+    margin: auto;
+    max-width: 500px;
+    height: 100%;
+    padding: 20px;
+    position: relative;
+
+}
+
+.register-form label{
+    display: block;
+    font-weight:bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.register-form input, textarea, div[id="nyilatkozat"]{
+    display: block;
+    width: 96%;
+    height: 25px;
+    font-size: large;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 9px;
+}
+
+.register-form textarea {
+    padding: 5px;
+}
+
+input:focus{
+    background-color: #d3efc7;
+}
+
+
+input[type="submit"]{
+    height: 55px;
+    background-color: #ed1c24ff;
+    color: white;
+    border: 2px solid #ed1c24ff;
+    border-radius: 5px;
+    margin: 20px auto auto;
+
+}
+input[type="submit"]:hover{
+    background-color:#cc0000;
+    border-color: #cc0000;
+}
+.check{
+    display: inline-block;
+    vertical-align: center;
+    font-size:15px;
+    text-transform: none;
+    float: left;
+    clear: none;
+}
+input[type="checkbox"], input[type="radio"]{
+    display: inline-block;
+    vertical-align: center;
+    width: 10%;
+    margin-top: 6px;
+    clear: none;
+}
+
+#nyilatkozat {
+    height: 280px;
+    overflow-y: auto;
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+#nyilatkozat ol {
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+#nyilatkozat li{
+    list-style-type: upper-alpha;
+    margin-left: 20px;
+}
+
+#nyilatkozat li p {
+    column-count: 2;
+    column-gap: 8%;
+    text-align: justify;
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+#stuff {
+    margin-top: 20px;
+}
+
+#stuff a {
+    color: black;
+}
+
+#stuff a:hover {
+    color: #cc0000;
+}
+
+.div-left {
+    float: left;
+    width: 48%;
+}
+
+.div-right {
+    float: right;
+    width: 48%;
+}
+
+#order-info {
+    width: 90%;
+    display: block;
+    margin: 30px auto 15px auto;
+}
+
+#order-info table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#order-info img {
+    width: 70%;
+    margin: auto;
+}
+
+#order-info th, #order-info td {
+    width: 20px;
+}
+
+#sum {
+    font-weight: bold;
+}
+
+#sum td[headers="termek"] {
+    text-align: left;
+}
+
+#note {
+    height: 130px;
+    resize: none;
+}
+
+#profilepic {
+    width: 140px;
+    height: 140px;
+    display: block;
+    margin: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.wcrop {
+    background-size: auto 140px;
+}
+
+.hcrop {
+    background-size: 140px auto;
+}
+
+#saved {
+    width: 70%;
+    padding: 3px;
+    margin: 20px auto;
+    font-weight: bold;
+    text-align: center;
+    background-color: #1b1b1b;
+    color: #c9c9c9;
+}
+
+#order-table {
+    width: 70%;
+    margin: 20px auto 5vh auto;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #1b1b1b;
+    color: #c9c9c9;
+}
+
+tr {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+td, th {
+    text-align: center;
+    padding: 3px;
+}
